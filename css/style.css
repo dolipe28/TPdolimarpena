@@ -1,0 +1,107 @@
+* {
+   position: relative;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+   background: #353A40;
+   justify-content: space-between;
+   color: white;
+}
+
+.logo {
+   display: flex;
+   margin-left: 5%;
+}
+
+.logo img {
+  width: 110px;
+  object-fit: contain;
+}
+
+.logo h2 {
+  padding-top: 12px;
+  font-size: 22px;
+}
+
+nav {
+   margin-right: 6%;
+}
+
+nav a {
+   margin-left: 10px;
+   font-size: 15px;
+   text-decoration: none;
+   color: gray;
+}
+
+.img-principal {
+   background-image:
+     linear-gradient(180deg,transparent 10.73%,rgba(0,0,0,.8)),
+     url('../img/hawaii.jpg');
+   width: 100%;
+   object-fit: cover;
+   position: relative;
+   height: 500px;
+   margin-bottom: 20px;
+}
+
+.principal-text {
+   top: 40%;
+   right: 5%;
+   position: absolute;
+   width: 50%;
+   color: white;
+}
+
+.card-style {
+   width: 18rem;
+   font-size: 12px;
+}
+
+.card-style a {
+   font-size: 12px;
+}
+
+.card-style h5 {
+   margin-top: 5px;
+}
+
+.card-honolulu {
+  margin: 40px 0 20px 0;
+  height: 350px;
+  font-size: 13px;
+  background: #353A40;
+  color: white;
+}
+
+.img-honolulu {
+   object-fit: cover;
+   min-width: 50%;
+}
+
+.input-form {
+   width: 48%;
+}
+.textarea-form {
+   margin-top: 15px;
+   height: 200px;
+}
+
+.form-btn {
+   font-size: 13px;
+   margin-top: 15px;
+}
+
+.footer {
+   margin-top: 20px;
+   background: #205B73;
+   height: 100px;
+}
+.footer span {
+   color: white;
+   font-size: 14px;
+}
